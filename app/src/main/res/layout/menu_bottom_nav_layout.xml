@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuAppBarBottomActivity">
+    tools:context=".MenuBottomNavActivity">
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/idBottomBar"
@@ -16,11 +16,4 @@
         style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
         />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/idFAB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_anchor="@id/idBottomBar"
-        android:src="@drawable/ic_baseline_add"/>
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

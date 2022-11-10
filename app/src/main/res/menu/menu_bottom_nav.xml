@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Favorites"
+        android:id="@+id/mFavorites"
+        android:icon="@drawable/ic_baseline_favorite"
+
+        />
+    <item android:title="Musica"
+        android:id="@+id/mMusica"
+        android:icon="@drawable/ic_baseline_music_note"
+
+        />
+    <item android:title="Place"
+        android:id="@+id/mPlace"
+        android:icon="@drawable/ic_baseline_place"
+
+        />
+    <item android:title="News"
+        android:id="@+id/mNews"
+        android:icon="@drawable/ic_baseline_newspaper"
+
+        />
+
+</menu>
