@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuBottomNavActivity">
 
-    <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/idBottomBar"
+    <FrameLayout
+        android:id="@+id/idContainer"
+        android:layout_above="@+id/idBottomNavigation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        app:navigationIcon="@drawable/ic_baseline_menu"
-        app:menu="@menu/menu_up"
-        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_height="match_parent"
+        android:background="#F8ECEC"
         />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/idBottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bottom_nav"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+
+        />
+
+</RelativeLayout>

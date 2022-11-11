@@ -16,7 +16,7 @@
 
     <style name="temaSemBarra" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@android:color/holo_red_light</item>
+        <item name="colorPrimary">#D67B74</item>
         <item name="colorPrimaryVariant">@android:color/holo_red_dark</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
