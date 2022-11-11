@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabsActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/idTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idPorcoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Porções"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idBebidas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bebidas"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idLanches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lanches"/>
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:background="#F6E2E2"
+        android:id="@+id/idContainerTab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idTab">
+
+    </FrameLayout>
+
+</RelativeLayout>
+

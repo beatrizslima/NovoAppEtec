@@ -14,6 +14,7 @@
         android:background="#F8ECEC"
         />
 
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/idBottomNavigation"
         android:layout_width="match_parent"
