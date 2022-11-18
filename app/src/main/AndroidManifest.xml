@@ -13,12 +13,25 @@
         android:theme="@style/Theme.NovoApp"
         tools:targetApi="31">
         <activity
+            android:name=".PizzaActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".TabsActivity"
             android:exported="true"
             android:theme="@style/temaSemBarra">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

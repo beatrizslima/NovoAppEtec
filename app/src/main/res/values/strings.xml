@@ -2,4 +2,5 @@
     <string name="app_name">NovoApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descricao">Queijo, ovo, presunto, ervilha e palmito</string>
 </resources>

@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LanchesFragment">
+    tools:context=".LanchesFragment"
+    android:orientation="vertical"
+    android:background="#F6E2E2">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="Qual lanche você deseja?" />
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/edtLanches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    <Button
+        android:id="@+id/btnEscolhaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha"/>
+
+</LinearLayout>
