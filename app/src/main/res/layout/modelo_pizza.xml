@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="180dp"
+    android:layout_height="150dp"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#F6E2E2">
 
         <ImageView
             android:id="@+id/imgPizza"
@@ -28,7 +29,8 @@
                 android:layout_height="wrap_content"
                 android:text="Portuguesa"
                 android:layout_margin="8dp"
-                android:textSize="18sp"/>
+                android:textSize="18sp"
+                android:textColor="#000"/>
 
             <TextView
                 android:id="@+id/txtSubtituloPizza"
@@ -36,7 +38,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/descricao"
                 android:layout_margin="10dp"
-                android:textSize="14sp"/>
+                android:textSize="14sp"
+                android:textColor="#000"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -58,7 +61,8 @@
                     android:text="4.5"
                     android:layout_marginRight="10dp"
                     android:textSize="12sp"
-                    android:layout_marginTop="35dp"/>
+                    android:layout_marginTop="35dp"
+                    android:textColor="#000"/>
 
                 <ImageView
                     android:id="@+id/iconShare"
